@@ -1,4 +1,4 @@
-from config import NGROK_AUTH_TOKEN
+from config import HF_TOKEN, NGROK_AUTH_TOKEN
 from model_loader import load_model
 from pdf_loader import load_pdf_text
 from embedder import chunk_text, build_vector_store
